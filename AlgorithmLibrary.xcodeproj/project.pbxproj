@@ -11,6 +11,7 @@
 		F0F5FF99221E8CE700CE8E93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0F5FF98221E8CE700CE8E93 /* main.cpp */; };
 		F0F5FFA2221EB30300CE8E93 /* InterviewProblem3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0F5FFA0221EB30300CE8E93 /* InterviewProblem3.cpp */; };
 		F0F5FFA5221F9E6500CE8E93 /* InterviewProblem4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0F5FFA3221F9E6500CE8E93 /* InterviewProblem4.cpp */; };
+		F0F5FFA82223852C00CE8E93 /* InterviewProblem6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0F5FFA62223852C00CE8E93 /* InterviewProblem6.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		F0F5FFA1221EB30300CE8E93 /* InterviewProblem3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InterviewProblem3.hpp; sourceTree = "<group>"; };
 		F0F5FFA3221F9E6500CE8E93 /* InterviewProblem4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InterviewProblem4.cpp; sourceTree = "<group>"; };
 		F0F5FFA4221F9E6500CE8E93 /* InterviewProblem4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InterviewProblem4.hpp; sourceTree = "<group>"; };
+		F0F5FFA62223852C00CE8E93 /* InterviewProblem6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InterviewProblem6.cpp; sourceTree = "<group>"; };
+		F0F5FFA72223852C00CE8E93 /* InterviewProblem6.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InterviewProblem6.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				F0F5FFA4221F9E6500CE8E93 /* InterviewProblem4.hpp */,
 				F0204CEC22219F53009A1FD4 /* InterviewProblem5.cpp */,
 				F0204CED22219F53009A1FD4 /* InterviewProblem5.hpp */,
+				F0F5FFA62223852C00CE8E93 /* InterviewProblem6.cpp */,
+				F0F5FFA72223852C00CE8E93 /* InterviewProblem6.hpp */,
 			);
 			path = "剑指offer";
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 				F0F5FF99221E8CE700CE8E93 /* main.cpp in Sources */,
 				F0204CEE22219F53009A1FD4 /* InterviewProblem5.cpp in Sources */,
 				F0F5FFA5221F9E6500CE8E93 /* InterviewProblem4.cpp in Sources */,
+				F0F5FFA82223852C00CE8E93 /* InterviewProblem6.cpp in Sources */,
 				F0F5FFA2221EB30300CE8E93 /* InterviewProblem3.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
