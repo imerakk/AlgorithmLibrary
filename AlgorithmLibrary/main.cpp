@@ -11,6 +11,7 @@
 #include "InterviewProblem4.hpp"
 #include "InterviewProblem5.hpp"
 #include "InterviewProblem6.hpp"
+#include "InterviewProblem7.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -40,12 +41,22 @@ int main(int argc, const char * argv[]) {
 */
     
 /*
-    // problem 5
+    // problem 6
     int preorder[] = {1, 2, 4, 7, 3, 5, 6, 8};
     int inorder[] = {4, 7, 2, 1, 5, 3, 8, 6};
     
     BinaryTreeNode *node = Construct(preorder, inorder, 8);
     prePrintBinaryTree(node);
  */
+    
+/*
+    // problem 7
+    Queue queue;
+    queue.appendTail(1);
+    queue.appendTail(2);
+    queue.appendTail(3);
+    int head = queue.deleteHead();
+*/
+    
     return 0;
 }
