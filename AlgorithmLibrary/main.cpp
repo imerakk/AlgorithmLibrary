@@ -12,6 +12,7 @@
 #include "InterviewProblem5.hpp"
 #include "InterviewProblem6.hpp"
 #include "InterviewProblem7.hpp"
+#include "InterviewProblem8.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -58,12 +59,24 @@ int main(int argc, const char * argv[]) {
     queue.appendTail(3);
     int head = queue.deleteHead();
 */
+    
+    /*
     int data[] = {3, 7, 2, 12, 4, 5, 6, 1};
     QuickSort(data, 8, 0, 7);
     
     for (int i = 0; i < 8; i++) {
         printf("%d ", data[i]);
     }
+     */
+    
+    
+    int number[] = {3, 4, 5, 1, 2};
+//    int min = Min(number, 5);
+    int min1 = Min1(number, 5);
+    printf("%d", min1);
+    
+    
+    
     
     return 0;
 }

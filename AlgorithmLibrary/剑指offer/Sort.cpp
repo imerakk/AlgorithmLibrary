@@ -18,8 +18,8 @@ int Partition(int data[], int start, int end) {
     int small = start - 1;
     for (int i=start; i<end; i++) {
         if (data[i] < data[index]) {
+            small++;
             if (i != small) {
-                small++;
                 swap(data[i], data[small]);
             }
         }
