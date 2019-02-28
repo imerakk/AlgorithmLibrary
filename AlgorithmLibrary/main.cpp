@@ -14,6 +14,7 @@
 #include "InterviewProblem7.hpp"
 #include "InterviewProblem8.hpp"
 #include "InterviewProblem9.hpp"
+#include "InterviewProblem10.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -76,10 +77,16 @@ int main(int argc, const char * argv[]) {
     int min1 = Min1(number, 5);
     printf("%d", min1);
 */
-    
+
+    /*
     long long count = TotalCount(5);
+    */
     
-    
+    /*
+    int count1 = NumberOf1(0);
+    int count2 = NumberOf1(5);
+    int count3 = NumberOf1(-2);
+    */
     
     return 0;
 }
