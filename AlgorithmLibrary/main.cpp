@@ -15,6 +15,8 @@
 #include "InterviewProblem8.hpp"
 #include "InterviewProblem9.hpp"
 #include "InterviewProblem10.hpp"
+#include "InterviewProblem11.hpp"
+#include "InterviewProblem12.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -78,15 +80,30 @@ int main(int argc, const char * argv[]) {
     printf("%d", min1);
 */
 
-    /*
+/*
     long long count = TotalCount(5);
-    */
+*/
     
-    /*
+/*
     int count1 = NumberOf1(0);
     int count2 = NumberOf1(5);
     int count3 = NumberOf1(-2);
-    */
+*/
+  
+/*
+    double num1 = Power(0.0, -1);
+    double num2 = Power(3.0, 5.0);
+    double num3 = Power(2.0, -3);
+    double num4 = Power(-3, 5.0);
+    double num5 = Power(-2.0, -3);
+    double num6 = Power(6.0, 0.0);
+ */
+    
+/*
+    PinrtNumber(1);
+    PinrtNumber(0);
+    PinrtNumber(-1);
+*/
     
     return 0;
 }
