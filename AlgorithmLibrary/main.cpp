@@ -17,6 +17,8 @@
 #include "InterviewProblem10.hpp"
 #include "InterviewProblem11.hpp"
 #include "InterviewProblem12.hpp"
+#include "InterviewProblem13.hpp"
+#include "InterviewProblem14.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -104,6 +106,17 @@ int main(int argc, const char * argv[]) {
     PinrtNumber(0);
     PinrtNumber(-1);
 */
+    
+/*
+    ListNode *headNode = new ListNode();
+    headNode->value = 1;
+    ListNode **pHeadNode = &headNode;
+    ListNode *deleteNode = headNode;
+    DeleteNode(pHeadNode, deleteNode);
+*/
+
+    int data[] = {2, 3};
+    ReorderOddEven(data, 5);
     
     return 0;
 }
