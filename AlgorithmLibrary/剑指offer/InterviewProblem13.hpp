@@ -10,11 +10,7 @@
 #define InterviewProblem13_hpp
 
 #include <stdio.h>
-
-struct ListNode {
-    int value;
-    ListNode *pNext;
-};
+#include "ListNode.hpp"
 
 void DeleteNode(ListNode **pListNode, ListNode *pToBeDeleted);
 
