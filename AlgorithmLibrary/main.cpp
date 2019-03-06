@@ -21,6 +21,7 @@
 #include "InterviewProblem14.hpp"
 #include "InterviewProblem15.hpp"
 #include "InterviewProblem16.hpp"
+#include "InterviewProblem17.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -128,10 +129,19 @@ int main(int argc, const char * argv[]) {
     ListNode *kNode = FindKthToTail(nodeHead, 3);
     */
     
+    /*
     int data[] = {2, 3, 4, 6, 1};
     ListNode *nodeHead = CreateListNode(data, 5);
-    ListNode *newNodeHead = ReverseListNode(nodeHead);
+    ListNode *newNodeHead = ReversListNode1(nodeHead);
     PrintListNode(newNodeHead);
+    */
+    
+    int data[] = {4, 6, 7, 7, 10};
+    int data1[] = {1, 4, 5};
+    ListNode *nodeHead1 = CreateListNode(data, 5);
+    ListNode *nodeHead2 = CreateListNode(data1, 3);
+    ListNode *node = MergeListNode(nodeHead1, nodeHead2);
+    PrintListNode(node);
     
     return 0;
 }

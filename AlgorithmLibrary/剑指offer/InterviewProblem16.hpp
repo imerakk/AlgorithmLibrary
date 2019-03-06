@@ -13,5 +13,6 @@
 #include "ListNode.hpp"
 
 ListNode * ReverseListNode(ListNode *nodeHead);
+ListNode * ReversListNode1(ListNode *nodeHead);
 
 #endif /* InterviewProblem16_hpp */

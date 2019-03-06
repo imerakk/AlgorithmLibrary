@@ -29,6 +29,15 @@ ListNode * ReverseListNode(ListNode *nodeHead) {
     return preNode;
 }
 
+ListNode * ReversListNode1(ListNode *nodeHead) {
+    if (nodeHead == NULL || nodeHead->pNext == NULL) {
+        return nodeHead;
+    }
 
-
+    ListNode *newHead = ReverseListNode(nodeHead->pNext);
+    nodeHead->pNext->pNext = nodeHead;
+    nodeHead->pNext = NULL;
+    
+    return newHead;
+}
 
