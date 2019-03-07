@@ -19,6 +19,9 @@
 		F0696399222E10B800F0238D /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0696397222E10B800F0238D /* ListNode.cpp */; };
 		F069639C222E1F0800F0238D /* InterviewProblem16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F069639A222E1F0800F0238D /* InterviewProblem16.cpp */; };
 		F069639F222F606F00F0238D /* InterviewProblem17.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F069639D222F606F00F0238D /* InterviewProblem17.cpp */; };
+		F06963A72230B38400F0238D /* InterviewProblem18.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F06963A52230B38400F0238D /* InterviewProblem18.cpp */; };
+		F06963AA2230B3D700F0238D /* BinaryTreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F06963A82230B3D700F0238D /* BinaryTreeNode.cpp */; };
+		F06963CA2230EA2F00F0238D /* InterviewProblem19.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F06963C82230EA2F00F0238D /* InterviewProblem19.cpp */; };
 		F0F5FF99221E8CE700CE8E93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0F5FF98221E8CE700CE8E93 /* main.cpp */; };
 		F0F5FFA2221EB30300CE8E93 /* InterviewProblem3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0F5FFA0221EB30300CE8E93 /* InterviewProblem3.cpp */; };
 		F0F5FFA5221F9E6500CE8E93 /* InterviewProblem4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0F5FFA3221F9E6500CE8E93 /* InterviewProblem4.cpp */; };
@@ -64,6 +67,12 @@
 		F069639B222E1F0800F0238D /* InterviewProblem16.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InterviewProblem16.hpp; sourceTree = "<group>"; };
 		F069639D222F606F00F0238D /* InterviewProblem17.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InterviewProblem17.cpp; sourceTree = "<group>"; };
 		F069639E222F606F00F0238D /* InterviewProblem17.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InterviewProblem17.hpp; sourceTree = "<group>"; };
+		F06963A52230B38400F0238D /* InterviewProblem18.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InterviewProblem18.cpp; sourceTree = "<group>"; };
+		F06963A62230B38400F0238D /* InterviewProblem18.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InterviewProblem18.hpp; sourceTree = "<group>"; };
+		F06963A82230B3D700F0238D /* BinaryTreeNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeNode.cpp; sourceTree = "<group>"; };
+		F06963A92230B3D700F0238D /* BinaryTreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeNode.hpp; sourceTree = "<group>"; };
+		F06963C82230EA2F00F0238D /* InterviewProblem19.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InterviewProblem19.cpp; sourceTree = "<group>"; };
+		F06963C92230EA2F00F0238D /* InterviewProblem19.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InterviewProblem19.hpp; sourceTree = "<group>"; };
 		F0F5FF95221E8CE700CE8E93 /* AlgorithmLibrary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmLibrary; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F5FF98221E8CE700CE8E93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F0F5FFA0221EB30300CE8E93 /* InterviewProblem3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InterviewProblem3.cpp; sourceTree = "<group>"; };
@@ -147,10 +156,16 @@
 				F069639B222E1F0800F0238D /* InterviewProblem16.hpp */,
 				F069639D222F606F00F0238D /* InterviewProblem17.cpp */,
 				F069639E222F606F00F0238D /* InterviewProblem17.hpp */,
+				F06963A52230B38400F0238D /* InterviewProblem18.cpp */,
+				F06963A62230B38400F0238D /* InterviewProblem18.hpp */,
+				F06963C82230EA2F00F0238D /* InterviewProblem19.cpp */,
+				F06963C92230EA2F00F0238D /* InterviewProblem19.hpp */,
 				F0F5FFAC2224E61100CE8E93 /* Sort.cpp */,
 				F0F5FFAD2224E61100CE8E93 /* Sort.hpp */,
 				F0696397222E10B800F0238D /* ListNode.cpp */,
 				F0696398222E10B800F0238D /* ListNode.hpp */,
+				F06963A82230B3D700F0238D /* BinaryTreeNode.cpp */,
+				F06963A92230B3D700F0238D /* BinaryTreeNode.hpp */,
 			);
 			path = "剑指offer";
 			sourceTree = "<group>";
@@ -211,11 +226,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F06963A72230B38400F0238D /* InterviewProblem18.cpp in Sources */,
 				F0F5FF99221E8CE700CE8E93 /* main.cpp in Sources */,
 				F0696396222E102300F0238D /* InterviewProblem15.cpp in Sources */,
 				F069637F22277B6200F0238D /* InterviewProblem9.cpp in Sources */,
 				F069639C222E1F0800F0238D /* InterviewProblem16.cpp in Sources */,
 				F0F5FFAB2224D58800CE8E93 /* InterviewProblem7.cpp in Sources */,
+				F06963CA2230EA2F00F0238D /* InterviewProblem19.cpp in Sources */,
 				F069638A2228D0DB00F0238D /* InterviewProblem11.cpp in Sources */,
 				F0696393222CCFB000F0238D /* InterviewProblem14.cpp in Sources */,
 				F069638D2228E39E00F0238D /* InterviewProblem12.cpp in Sources */,
@@ -228,6 +245,7 @@
 				F0F5FFA2221EB30300CE8E93 /* InterviewProblem3.cpp in Sources */,
 				F0F5FFAE2224E61100CE8E93 /* Sort.cpp in Sources */,
 				F0696399222E10B800F0238D /* ListNode.cpp in Sources */,
+				F06963AA2230B3D700F0238D /* BinaryTreeNode.cpp in Sources */,
 				F069639F222F606F00F0238D /* InterviewProblem17.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

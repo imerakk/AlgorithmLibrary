@@ -10,12 +10,7 @@
 #define InterviewProblem6_hpp
 
 #include <stdio.h>
-
-struct BinaryTreeNode {
-    int value;
-    BinaryTreeNode *leftNode;
-    BinaryTreeNode *rightNode;
-};
+#include "BinaryTreeNode.hpp"
 
 void prePrintBinaryTree(BinaryTreeNode *rootNode);
 
