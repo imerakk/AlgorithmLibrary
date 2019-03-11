@@ -17,5 +17,8 @@ struct BinaryTreeNode {
     BinaryTreeNode *rightNode;
 };
 
+BinaryTreeNode * AddLeftNode(BinaryTreeNode *node, int value);
+BinaryTreeNode * AddRightNode(BinaryTreeNode *node, int value);
+
 
 #endif /* BinaryTreeNode_hpp */

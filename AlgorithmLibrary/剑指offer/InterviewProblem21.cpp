@@ -14,7 +14,7 @@
 using namespace std;
 
 class MyStack {
-private:
+protected:
     stack<int> data;
     stack<int> minData;
     

@@ -22,6 +22,8 @@
 #include "InterviewProblem15.hpp"
 #include "InterviewProblem16.hpp"
 #include "InterviewProblem17.hpp"
+#include "InterviewProblem22.hpp"
+#include "InterviewProblem23.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -136,12 +138,35 @@ int main(int argc, const char * argv[]) {
     PrintListNode(newNodeHead);
     */
     
+    /*
     int data[] = {4, 6, 7, 7, 10};
     int data1[] = {1, 4, 5};
     ListNode *nodeHead1 = CreateListNode(data, 5);
     ListNode *nodeHead2 = CreateListNode(data1, 3);
     ListNode *node = MergeListNode(nodeHead1, nodeHead2);
     PrintListNode(node);
+    */
+
+    /*
+//    int pushOrder[] = {1, 2, 3, 4, 5};
+//    int popOrder[] = {4, 5, 3, 2, 1};
+//    int popOrder1[] = {4, 3, 5, 1, 2};
+    int pushOrder[] = {1};
+    int popOrder[] = {2};
+    
+    bool isPopOrder = IsPopOrder(pushOrder, popOrder, 1);
+    */
+    
+    /*
+    BinaryTreeNode *node = new BinaryTreeNode();
+    node->value = 1;
+    BinaryTreeNode *leftNode = AddLeftNode(node, 2);
+    BinaryTreeNode *rightNode = AddRightNode(node, 3);
+    AddLeftNode(leftNode, 4);
+    AddRightNode(leftNode, 5);
+    AddLeftNode(rightNode, 6);
+    PrintFromTopToBottom(node);
+    */
     
     return 0;
 }
