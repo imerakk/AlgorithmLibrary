@@ -24,6 +24,7 @@
 #include "InterviewProblem17.hpp"
 #include "InterviewProblem22.hpp"
 #include "InterviewProblem23.hpp"
+#include "InterviewProblem24.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -166,6 +167,11 @@ int main(int argc, const char * argv[]) {
     AddRightNode(leftNode, 5);
     AddLeftNode(rightNode, 6);
     PrintFromTopToBottom(node);
+    */
+    
+    /*
+    int seq[] = {5, 7, 6, 9, 11, 10, 8};
+    bool isBST = VerifySquenceOfBST(seq, 7);
     */
     
     return 0;
