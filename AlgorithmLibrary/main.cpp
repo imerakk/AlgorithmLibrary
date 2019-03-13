@@ -25,6 +25,8 @@
 #include "InterviewProblem22.hpp"
 #include "InterviewProblem23.hpp"
 #include "InterviewProblem24.hpp"
+#include "InterviewProblem27.hpp"
+#include "InterviewProblem28.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -173,6 +175,27 @@ int main(int argc, const char * argv[]) {
     int seq[] = {5, 7, 6, 9, 11, 10, 8};
     bool isBST = VerifySquenceOfBST(seq, 7);
     */
+    
+    /*
+    //    10
+    //  7   11
+    // 1 8
+    BinaryTreeNode *node = new BinaryTreeNode();
+    node->value = 10;
+    BinaryTreeNode *leftNode = AddLeftNode(node, 7);
+    BinaryTreeNode *rightNode = AddRightNode(node, 11);
+    AddLeftNode(leftNode, 1);
+    AddRightNode(leftNode, 8);
+    
+    BinaryTreeNode *pHead = Convert(node);
+    while (pHead != NULL) {
+        printf("%d\t", pHead->value);
+        pHead = pHead->rightNode;
+    }
+    */
+    
+    char str[] = "abc";
+    Permutation(str);
     
     return 0;
 }
