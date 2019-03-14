@@ -27,6 +27,8 @@
 #include "InterviewProblem24.hpp"
 #include "InterviewProblem27.hpp"
 #include "InterviewProblem28.hpp"
+#include "InterviewProblem29.hpp"
+#include "InterviewProblem30.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -194,8 +196,19 @@ int main(int argc, const char * argv[]) {
     }
     */
     
+    /*
     char str[] = "abc";
     Permutation(str);
+    */
+    
+    /*
+    int number[] = {1, 2};
+    int num = MoreThanHalfOfNum(NULL, 2);
+    */
+    
+    int number[] = {3, 6, 2, 4, 5};
+    int output[5];
+    GetLeastNumber(number, output, 5, 5);
     
     return 0;
 }
