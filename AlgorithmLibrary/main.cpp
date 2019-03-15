@@ -29,6 +29,8 @@
 #include "InterviewProblem28.hpp"
 #include "InterviewProblem29.hpp"
 #include "InterviewProblem30.hpp"
+#include "InterviewProblem31.hpp"
+#include "InterviewProblem32.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -206,9 +208,23 @@ int main(int argc, const char * argv[]) {
     int num = MoreThanHalfOfNum(NULL, 2);
     */
     
+    /*
     int number[] = {3, 6, 2, 4, 5};
     int output[5];
     GetLeastNumber(number, output, 5, 5);
+    */
+    
+    /*
+//    int data[] = {1, -2, 3, 10, -4, 7, 2, -5};
+    int data[] = {3, 2, 2};
+    int maxSum = FindMaxSumOfSubArray(data, 3);
+    */
+    
+    
+    /*
+    int count = NumberOf1Between1AndN(123113);
+    */
+    
     
     return 0;
 }
