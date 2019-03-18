@@ -31,6 +31,8 @@
 #include "InterviewProblem30.hpp"
 #include "InterviewProblem31.hpp"
 #include "InterviewProblem32.hpp"
+#include "InterviewProblem33.hpp"
+#include "InterviewProblem34.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -225,6 +227,14 @@ int main(int argc, const char * argv[]) {
     int count = NumberOf1Between1AndN(123113);
     */
     
+    
+    /*
+    int arr[] = {321, 320, 122};
+    vector<int> num(arr, arr+3);
+    PrintMinNumber(num);
+    */
+    
+    int ugly = GetUglyNumber(7);
     
     return 0;
 }
