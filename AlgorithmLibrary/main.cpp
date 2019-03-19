@@ -33,6 +33,8 @@
 #include "InterviewProblem32.hpp"
 #include "InterviewProblem33.hpp"
 #include "InterviewProblem34.hpp"
+#include "InterviewProblem35.hpp"
+#include "InterviewProblem36.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -234,7 +236,18 @@ int main(int argc, const char * argv[]) {
     PrintMinNumber(num);
     */
     
+    /*
     int ugly = GetUglyNumber(7);
+    */
+    
+    /*
+    char str[] = "abaccdeff";
+    char ch = FindFirstNotRepeatingChar(str);
+    */
+    
+    int array[] = {4, 3, 3, 1};
+    int count = InversePairs(array, 1);
+    
     
     return 0;
 }
