@@ -35,6 +35,8 @@
 #include "InterviewProblem34.hpp"
 #include "InterviewProblem35.hpp"
 #include "InterviewProblem36.hpp"
+#include "InterviewProblem37.hpp"
+#include "InterviewProblem38.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -245,9 +247,33 @@ int main(int argc, const char * argv[]) {
     char ch = FindFirstNotRepeatingChar(str);
     */
     
+    /*
     int array[] = {4, 3, 3, 1};
     int count = InversePairs(array, 1);
+    */
     
+    /*
+    ListNode *headNode1 = new ListNode();
+    headNode1->value = 4;
+    
+    ListNode *listNode2 = new ListNode();
+    listNode2->value = 7;
+    headNode1->pNext = listNode2;
+
+    ListNode *headNode2 = new ListNode();
+    headNode2->value = 3;
+    
+    ListNode *listNode1 = new ListNode();
+    listNode1->value = 1;
+    listNode2->pNext = listNode1;
+    
+    headNode2->pNext = listNode1;
+    
+    ListNode *sameNode = FindFirstSameNode(headNode1, headNode1);
+    */
+    
+    int data[] = {1, 2, 3, 3, 3, 3, 4, 5};
+    int count = GetNumberOfK(data, 8, 5);
     
     return 0;
 }
