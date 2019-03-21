@@ -37,6 +37,7 @@
 #include "InterviewProblem36.hpp"
 #include "InterviewProblem37.hpp"
 #include "InterviewProblem38.hpp"
+#include "InterviewProblem40.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -272,8 +273,15 @@ int main(int argc, const char * argv[]) {
     ListNode *sameNode = FindFirstSameNode(headNode1, headNode1);
     */
     
+    /*
     int data[] = {1, 2, 3, 3, 3, 3, 4, 5};
     int count = GetNumberOfK(data, 8, 5);
+    */
+    
+    int data[] = {1, 5, 5, 4, 4, 5};
+    int num1 = 0;
+    int num2 = 0;
+    FindFirstNumber(data, 6, &num1, &num2);
     
     return 0;
 }

@@ -41,6 +41,8 @@
 		F07E86E12240951400C50055 /* InterviewProblem36.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F07E86DF2240951400C50055 /* InterviewProblem36.cpp */; };
 		F07E86E42241CF5500C50055 /* InterviewProblem37.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F07E86E22241CF5500C50055 /* InterviewProblem37.cpp */; };
 		F07E86E722420EB900C50055 /* InterviewProblem38.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F07E86E522420EB900C50055 /* InterviewProblem38.cpp */; };
+		F07E87AE2243299000C50055 /* InterviewProblem39.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F07E87AC2243299000C50055 /* InterviewProblem39.cpp */; };
+		F07E87B12243387A00C50055 /* InterviewProblem40.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F07E87AF2243387A00C50055 /* InterviewProblem40.cpp */; };
 		F0F5FF99221E8CE700CE8E93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0F5FF98221E8CE700CE8E93 /* main.cpp */; };
 		F0F5FFA2221EB30300CE8E93 /* InterviewProblem3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0F5FFA0221EB30300CE8E93 /* InterviewProblem3.cpp */; };
 		F0F5FFA5221F9E6500CE8E93 /* InterviewProblem4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0F5FFA3221F9E6500CE8E93 /* InterviewProblem4.cpp */; };
@@ -130,6 +132,10 @@
 		F07E86E32241CF5500C50055 /* InterviewProblem37.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InterviewProblem37.hpp; sourceTree = "<group>"; };
 		F07E86E522420EB900C50055 /* InterviewProblem38.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InterviewProblem38.cpp; sourceTree = "<group>"; };
 		F07E86E622420EB900C50055 /* InterviewProblem38.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InterviewProblem38.hpp; sourceTree = "<group>"; };
+		F07E87AC2243299000C50055 /* InterviewProblem39.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InterviewProblem39.cpp; sourceTree = "<group>"; };
+		F07E87AD2243299000C50055 /* InterviewProblem39.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InterviewProblem39.hpp; sourceTree = "<group>"; };
+		F07E87AF2243387A00C50055 /* InterviewProblem40.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InterviewProblem40.cpp; sourceTree = "<group>"; };
+		F07E87B02243387A00C50055 /* InterviewProblem40.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InterviewProblem40.hpp; sourceTree = "<group>"; };
 		F0F5FF95221E8CE700CE8E93 /* AlgorithmLibrary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmLibrary; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F5FF98221E8CE700CE8E93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F0F5FFA0221EB30300CE8E93 /* InterviewProblem3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InterviewProblem3.cpp; sourceTree = "<group>"; };
@@ -255,6 +261,10 @@
 				F07E86E32241CF5500C50055 /* InterviewProblem37.hpp */,
 				F07E86E522420EB900C50055 /* InterviewProblem38.cpp */,
 				F07E86E622420EB900C50055 /* InterviewProblem38.hpp */,
+				F07E87AC2243299000C50055 /* InterviewProblem39.cpp */,
+				F07E87AD2243299000C50055 /* InterviewProblem39.hpp */,
+				F07E87AF2243387A00C50055 /* InterviewProblem40.cpp */,
+				F07E87B02243387A00C50055 /* InterviewProblem40.hpp */,
 				F0F5FFAC2224E61100CE8E93 /* Sort.cpp */,
 				F0F5FFAD2224E61100CE8E93 /* Sort.hpp */,
 				F0696397222E10B800F0238D /* ListNode.cpp */,
@@ -326,6 +336,7 @@
 				F07E86D8223F3B8600C50055 /* InterviewProblem33.cpp in Sources */,
 				F06963A72230B38400F0238D /* InterviewProblem18.cpp in Sources */,
 				F06963FB2235F9D300F0238D /* InterviewProblem22.cpp in Sources */,
+				F07E87B12243387A00C50055 /* InterviewProblem40.cpp in Sources */,
 				F069645F223B4D0B00F0238D /* InterviewProblem32.cpp in Sources */,
 				F07E86DE2240818500C50055 /* InterviewProblem35.cpp in Sources */,
 				F0F5FF99221E8CE700CE8E93 /* main.cpp in Sources */,
@@ -350,6 +361,7 @@
 				F069640422375D1200F0238D /* InterviewProblem25.cpp in Sources */,
 				F06963FE2236083500F0238D /* InterviewProblem23.cpp in Sources */,
 				F06961FD22262FFE00F0238D /* InterviewProblem8.cpp in Sources */,
+				F07E87AE2243299000C50055 /* InterviewProblem39.cpp in Sources */,
 				F06963822227BC5100F0238D /* InterviewProblem10.cpp in Sources */,
 				F0F5FFA82223852C00CE8E93 /* InterviewProblem6.cpp in Sources */,
 				F0696459223A0AD100F0238D /* InterviewProblem30.cpp in Sources */,
