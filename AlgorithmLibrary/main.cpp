@@ -38,6 +38,8 @@
 #include "InterviewProblem37.hpp"
 #include "InterviewProblem38.hpp"
 #include "InterviewProblem40.hpp"
+#include "InterviewProblem41.hpp"
+#include "InterviewProblem42.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -278,10 +280,26 @@ int main(int argc, const char * argv[]) {
     int count = GetNumberOfK(data, 8, 5);
     */
     
+    /*
     int data[] = {1, 5, 5, 4, 4, 5};
     int num1 = 0;
     int num2 = 0;
     FindFirstNumber(data, 6, &num1, &num2);
+    */
     
+    /*
+    int data[] = {1, 5, 5, 4, 4, 5};
+    bool found = FindNumberWithSum(data, 6, 20);
+    
+    FindNumbersWithSum(99999);
+    */
+    
+    /*
+    char ch[] = "I am dada";
+    ReverseSentence(ch);
+
+    char ch[] = "";
+    LeftRotateReverse(ch, 2);
+    */
     return 0;
 }
