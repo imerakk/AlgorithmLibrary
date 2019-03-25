@@ -40,6 +40,7 @@
 #include "InterviewProblem40.hpp"
 #include "InterviewProblem41.hpp"
 #include "InterviewProblem42.hpp"
+#include "InterviewProblem43.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -301,5 +302,7 @@ int main(int argc, const char * argv[]) {
     char ch[] = "";
     LeftRotateReverse(ch, 2);
     */
+    
+    PrintProbability(2);
     return 0;
 }
