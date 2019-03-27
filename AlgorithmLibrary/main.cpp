@@ -41,6 +41,10 @@
 #include "InterviewProblem41.hpp"
 #include "InterviewProblem42.hpp"
 #include "InterviewProblem43.hpp"
+#include "InterviewProblem44.hpp"
+#include "InterviewProblem45.hpp"
+#include "InterviewProblem46.hpp"
+#include "InterviewProblem47.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -303,6 +307,26 @@ int main(int argc, const char * argv[]) {
     LeftRotateReverse(ch, 2);
     */
     
+    /*
     PrintProbability(2);
+     */
+    
+    /*
+    int number[] = {2, 4, 3, 5, 11};
+    bool isContinuous = IsContinuous(number, 5);
+    */
+    
+    /*
+    int lastRemain = LastRemain(3, 4);
+    */
+    
+    /*
+    int sum = SumRecursion(10000);
+    */
+    
+    /*
+    int sum = Add(-4, 5);
+    */
+    
     return 0;
 }
