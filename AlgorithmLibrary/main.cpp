@@ -45,6 +45,7 @@
 #include "InterviewProblem45.hpp"
 #include "InterviewProblem46.hpp"
 #include "InterviewProblem47.hpp"
+#include "InterviewProblem49.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -327,6 +328,11 @@ int main(int argc, const char * argv[]) {
     /*
     int sum = Add(-4, 5);
     */
+    
+    char str[] = "+31123";
+    int num = StrToInt(str);
+    printf("num:%d invailInput:%d", num, g_InvailInput);
+    
     
     return 0;
 }
