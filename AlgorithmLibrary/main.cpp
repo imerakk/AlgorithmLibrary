@@ -47,6 +47,7 @@
 #include "InterviewProblem47.hpp"
 #include "InterviewProblem49.hpp"
 #include "InterviewProblem51.hpp"
+#include "InterviewProblem52.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -341,6 +342,10 @@ int main(int argc, const char * argv[]) {
     int a = 0;
     Duplicate(num, 5, NULL);
     */
+    
+    int data[] = {1, 2, 3, 4, 5};
+    int multiArray[5];
+    Multiply(data, 5, multiArray);
     
     return 0;
 }
