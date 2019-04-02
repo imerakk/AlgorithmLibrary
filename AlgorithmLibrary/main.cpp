@@ -48,6 +48,8 @@
 #include "InterviewProblem49.hpp"
 #include "InterviewProblem51.hpp"
 #include "InterviewProblem52.hpp"
+#include "InterviewProblem54.hpp"
+#include "InterviewProblem55.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -343,9 +345,20 @@ int main(int argc, const char * argv[]) {
     Duplicate(num, 5, NULL);
     */
     
+    /*
     int data[] = {1, 2, 3, 4, 5};
     int multiArray[5];
     Multiply(data, 5, multiArray);
+    */
     
+    /*
+    char str[] = "-1E-16";
+    bool ss = IsNumber(str);
+    */
+    
+    /*
+    char str[] = "google";
+    char firstChar = FindAppearingOnce(NULL);
+    */
     return 0;
 }
