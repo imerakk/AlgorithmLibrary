@@ -50,6 +50,7 @@
 #include "InterviewProblem52.hpp"
 #include "InterviewProblem54.hpp"
 #include "InterviewProblem55.hpp"
+#include "InterviewProblem57.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -360,5 +361,9 @@ int main(int argc, const char * argv[]) {
     char str[] = "google";
     char firstChar = FindAppearingOnce(NULL);
     */
+    
+    int data[] = {1, 2, 3, 3, 4, 4, 5};
+    ListNode *node = CreateListNode(data, 7);
+    ListNode *pHead = DeleteDuplication(node);
     return 0;
 }
