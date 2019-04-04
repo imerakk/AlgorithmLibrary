@@ -362,8 +362,9 @@ int main(int argc, const char * argv[]) {
     char firstChar = FindAppearingOnce(NULL);
     */
     
-    int data[] = {1, 2, 3, 3, 4, 4, 5};
-    ListNode *node = CreateListNode(data, 7);
-    ListNode *pHead = DeleteDuplication(node);
+//    int data[] = {1, 2, 3, 3, 4, 4, 5};
+//    ListNode *node = CreateListNode(data, 7);
+//    ListNode *pHead = DeleteDuplication(node);
+    
     return 0;
 }
