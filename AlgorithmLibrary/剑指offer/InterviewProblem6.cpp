@@ -16,8 +16,7 @@ BinaryTreeNode * Construct(int *preorder, int *inorder, int length) {
     }
     
     int root = preorder[0];
-    BinaryTreeNode *rootNode = new BinaryTreeNode();
-    rootNode->value = root;
+    BinaryTreeNode *rootNode = new BinaryTreeNode(root);
     
     int *rootInorder = inorder;
     int rootIndex = 0;

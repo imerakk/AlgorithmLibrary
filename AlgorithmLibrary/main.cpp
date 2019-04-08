@@ -51,6 +51,8 @@
 #include "InterviewProblem54.hpp"
 #include "InterviewProblem55.hpp"
 #include "InterviewProblem57.hpp"
+#include "InterviewProblem60.hpp"
+#include "InterviewProblem61.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -366,5 +368,23 @@ int main(int argc, const char * argv[]) {
 //    ListNode *node = CreateListNode(data, 7);
 //    ListNode *pHead = DeleteDuplication(node);
     
+    /*
+    BinaryTreeNode *left1 = new BinaryTreeNode(4);
+    
+    BinaryTreeNode *left = new BinaryTreeNode(2);
+    left->leftNode = left1;
+    
+    BinaryTreeNode *right1 = new BinaryTreeNode(5);
+    BinaryTreeNode *right = new BinaryTreeNode(3);
+    right->rightNode = right1;
+    
+    BinaryTreeNode *root = new BinaryTreeNode(1);
+    root->leftNode = left;
+    root->rightNode = right;
+    
+    Print(root);
+    
+    Print1(root);
+    */
     return 0;
 }

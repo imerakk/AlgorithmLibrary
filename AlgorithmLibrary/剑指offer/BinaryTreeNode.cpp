@@ -9,15 +9,13 @@
 #include "BinaryTreeNode.hpp"
 
 BinaryTreeNode * AddLeftNode(BinaryTreeNode *node, int value) {
-    BinaryTreeNode *leftNode = new BinaryTreeNode();
-    leftNode->value = value;
+    BinaryTreeNode *leftNode = new BinaryTreeNode(value);
     node->leftNode = leftNode;
     return leftNode;
 }
 
 BinaryTreeNode * AddRightNode(BinaryTreeNode *node, int value) {
-    BinaryTreeNode *rightNode = new BinaryTreeNode();
-    rightNode->value = value;
+    BinaryTreeNode *rightNode = new BinaryTreeNode(value);
     node->rightNode = rightNode;
     return rightNode;
 }

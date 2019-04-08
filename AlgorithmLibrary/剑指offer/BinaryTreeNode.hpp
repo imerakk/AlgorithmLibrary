@@ -15,6 +15,8 @@ struct BinaryTreeNode {
     int value;
     BinaryTreeNode *leftNode;
     BinaryTreeNode *rightNode;
+    
+    BinaryTreeNode(int x): value(x),leftNode(NULL),rightNode(NULL) {};
 };
 
 BinaryTreeNode * AddLeftNode(BinaryTreeNode *node, int value);
