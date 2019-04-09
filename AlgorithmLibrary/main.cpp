@@ -53,6 +53,8 @@
 #include "InterviewProblem57.hpp"
 #include "InterviewProblem60.hpp"
 #include "InterviewProblem61.hpp"
+#include "InterviewProblem62.hpp"
+#include "InterviewProblem63.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -374,7 +376,7 @@ int main(int argc, const char * argv[]) {
     BinaryTreeNode *left = new BinaryTreeNode(2);
     left->leftNode = left1;
     
-    BinaryTreeNode *right1 = new BinaryTreeNode(5);
+    BinaryTreeNode *right1 = new BinaryTreeNode(511);
     BinaryTreeNode *right = new BinaryTreeNode(3);
     right->rightNode = right1;
     
@@ -382,9 +384,13 @@ int main(int argc, const char * argv[]) {
     root->leftNode = left;
     root->rightNode = right;
     
-    Print(root);
+//    Print(root);
+//
+//    Print1(root);
     
-    Print1(root);
+//    char *str = Serialize(root);
+//    BinaryTreeNode *root1 = Deserialize(str);
+    BinaryTreeNode *node = KthNode(root, 1);
     */
     return 0;
 }
