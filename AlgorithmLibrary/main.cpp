@@ -55,6 +55,8 @@
 #include "InterviewProblem61.hpp"
 #include "InterviewProblem62.hpp"
 #include "InterviewProblem63.hpp"
+#include "InterviewProblem64.hpp"
+#include "InterviewProblem65.hpp"
 #include "Sort.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -392,5 +394,19 @@ int main(int argc, const char * argv[]) {
 //    BinaryTreeNode *root1 = Deserialize(str);
     BinaryTreeNode *node = KthNode(root, 1);
     */
+    
+    /*
+    Solution64 sol;
+    sol.Insert(11);
+    sol.Insert(2);
+    sol.Insert(20);
+    double val =  sol.GetMedian();
+    */
+    
+    int num[] = {2, 2, 5};
+    vector<int> vector(num, num+3);
+    
+    std::vector<int> res = maxInWindows(vector, 3);
+    
     return 0;
 }
