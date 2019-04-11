@@ -7,6 +7,7 @@
 //
 
 #include <iostream>
+#include "Sort.hpp"
 #include "InterviewProblem3.hpp"
 #include "InterviewProblem4.hpp"
 #include "InterviewProblem5.hpp"
@@ -403,10 +404,19 @@ int main(int argc, const char * argv[]) {
     double val =  sol.GetMedian();
     */
     
+    /*
     int num[] = {2, 2, 5};
     vector<int> vector(num, num+3);
     
     std::vector<int> res = maxInWindows(vector, 3);
+    */
     
+    int arr[] = {7, 4, 2, 1, 2, 3, 8, 6};
+//    BubbleSort(arr, 8);
+//    SelectionSort(arr, 8);
+//    InsertSort(arr, 8);
+//    ShellSort(arr, 8);
+    MergeSort(arr, 2);
+
     return 0;
 }

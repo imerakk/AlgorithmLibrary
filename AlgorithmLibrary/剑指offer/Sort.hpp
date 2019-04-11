@@ -12,5 +12,10 @@
 #include <stdio.h>
 
 void QuickSort(int *data, int length, int start, int end);
+void BubbleSort(int data[], int length);
+void SelectionSort(int data[], int length);
+void InsertSort(int data[], int length);
+void ShellSort(int data[], int length);
+void MergeSort(int data[], int length);
 
 #endif /* Sort_hpp */
