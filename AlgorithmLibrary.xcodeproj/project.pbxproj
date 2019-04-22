@@ -236,6 +236,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F0E6F1FC226DBA2F00D14192 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
 		F0F5FF8C221E8CE700CE8E93 = {
 			isa = PBXGroup;
 			children = (
@@ -255,6 +262,7 @@
 		F0F5FF97221E8CE700CE8E93 /* AlgorithmLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				F0E6F1FC226DBA2F00D14192 /* LeetCode */,
 				F0F5FF9F221EB27B00CE8E93 /* 剑指offer */,
 				F0F5FF98221E8CE700CE8E93 /* main.cpp */,
 			);
