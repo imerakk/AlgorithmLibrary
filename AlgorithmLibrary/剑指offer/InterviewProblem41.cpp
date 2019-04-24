@@ -40,7 +40,7 @@ bool FindNumberWithSum(int *data, int length, int sum) {
 
 
 //  输入一个正数s，打印出所有和为s的连续正数序列（至少含有两个数）。例如输入15
-//  由于1+2+3+4+5=4+5+6+7+8=15，所以结果打印出三个连续序列1~5，4~6，7~8
+//  由于1+2+3+4+5=4+5+6=7+8=15，所以结果打印出三个连续序列1~5，4~6，7~8
 
 void PrintSequenceNum(int small, int big) {
     for (int i=small; i<=big; i++) {
