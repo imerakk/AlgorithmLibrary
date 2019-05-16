@@ -411,12 +411,21 @@ int main(int argc, const char * argv[]) {
     std::vector<int> res = maxInWindows(vector, 3);
     */
     
-    int arr[] = {7, 4, 2, 1, 2, 3, 8, 6};
+//    int arr[] = {7, 4, 2, 1, 2, 3, 8, 6};
 //    BubbleSort(arr, 8);
 //    SelectionSort(arr, 8);
 //    InsertSort(arr, 8);
 //    ShellSort(arr, 8);
-    MergeSort(arr, 2);
+//    MergeSort(arr, 2);
+    
+    int arr[] = {7, 4, 2, 2, 2, 7, 8, 6};
+    int newArr[8];
+    for (int i=0; i<8; i++) {
+        newArr[i] = 0;
+    }
+    DeleteDuplicate(arr, 8, newArr);
+    
+    
 
     return 0;
 }

@@ -11,7 +11,7 @@
 
 using namespace std;
 
-//快速排序
+//快速排序 O(Nlog2N)
 int Partition(int data[], int start, int end) {
     int index = end;
     

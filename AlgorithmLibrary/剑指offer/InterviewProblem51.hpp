@@ -13,4 +13,6 @@
 
 bool Duplicate(int *number, int length, int *duplicateNumber);
 
+void DeleteDuplicate(int *array, int length, int *newArray);
+
 #endif /* InterviewProblem51_hpp */

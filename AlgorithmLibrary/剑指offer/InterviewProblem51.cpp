@@ -11,6 +11,9 @@
 //  数字2或者3
 
 #include "InterviewProblem51.hpp"
+#include <set>
+
+using namespace std;
 
 bool Duplicate(int *number, int length, int *duplicateNumber) {
     if (number == NULL || length <= 0 || duplicateNumber == NULL) {
@@ -42,4 +45,18 @@ bool Duplicate(int *number, int length, int *duplicateNumber) {
     }
     
     return finded;
+}
+
+void DeleteDuplicate(int *array, int length, int *newArray) {
+    if (array == NULL || newArray == NULL || length <= 0) {
+        return;
+    }
+    
+    set<int> numSet;
+    for (int i=0, j=0; i<length; i++) {
+        if (numSet.find(array[i]) == numSet.end()) {
+            numSet.insert(array[i]);
+            newArray[j++] = array[i];
+        }
+    }
 }
