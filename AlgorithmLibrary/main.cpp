@@ -426,6 +426,7 @@ int main(int argc, const char * argv[]) {
     DeleteDuplicate(arr, 8, newArr);
     
     
+    
 
     return 0;
 }
