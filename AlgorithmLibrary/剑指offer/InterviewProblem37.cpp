@@ -13,7 +13,7 @@ int GetListNodeLength(ListNode *pRootNode) {
     int length = 0;
     while (pRootNode != NULL) {
         length ++;
-        pRootNode = pRootNode->pNext;
+        pRootNode = pRootNode->next;
     }
     
     return length;
@@ -42,7 +42,7 @@ ListNode *FindFirstSameNode(ListNode *pRootNode1, ListNode *pRootNode2) {
     }
     
     for (int i=0; i<lengthDiff; i++) {
-        pLongHead = pLongHead->pNext;
+        pLongHead = pLongHead->next;
     }
     
     ListNode *sameNode = NULL;
@@ -52,8 +52,8 @@ ListNode *FindFirstSameNode(ListNode *pRootNode1, ListNode *pRootNode2) {
             break;
         }
         
-        pLongHead = pLongHead->pNext;
-        pShortHead = pShortHead->pNext;
+        pLongHead = pLongHead->next;
+        pShortHead = pShortHead->next;
     }
     
     return sameNode;

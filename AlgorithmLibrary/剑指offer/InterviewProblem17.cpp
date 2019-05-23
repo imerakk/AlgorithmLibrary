@@ -19,34 +19,34 @@ ListNode * MergeListNode(ListNode *pHead1, ListNode *pHead2) {
     }
     
     ListNode *headNode = NULL;
-    if (pHead1->value < pHead2->value) {
+    if (pHead1->val < pHead2->val) {
         headNode = pHead1;
-        pHead1 = pHead1->pNext;
+        pHead1 = pHead1->next;
     }
     else {
         headNode = pHead2;
-        pHead2 = pHead2->pNext;
+        pHead2 = pHead2->next;
     }
     
     ListNode *newNode = headNode;
     while (pHead1 != NULL && pHead2 != NULL) {
-        if (pHead1->value < pHead2->value) {
-            newNode->pNext = pHead1;
+        if (pHead1->val < pHead2->val) {
+            newNode->next = pHead1;
             newNode = pHead1;
-            pHead1 = pHead1->pNext;
+            pHead1 = pHead1->next;
         }
         else {
-            newNode->pNext = pHead2;
+            newNode->next = pHead2;
             newNode = pHead2;
-            pHead2 = pHead2->pNext;
+            pHead2 = pHead2->next;
         }
     }
     
     if (pHead1 == NULL) {
-        newNode->pNext = pHead2;
+        newNode->next = pHead2;
     }
     else if (pHead2 == NULL) {
-        newNode->pNext = pHead1;
+        newNode->next = pHead1;
     }
     
     return headNode;

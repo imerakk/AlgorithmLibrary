@@ -19,9 +19,9 @@ ListNode * EntryNodeOfLoop(ListNode *pHead) {
     ListNode *pFast = pHead;
     
     do {
-        if (pFast->pNext->pNext != NULL && pSlow->pNext != NULL) {
-            pFast = pFast->pNext->pNext;
-            pSlow = pSlow->pNext;
+        if (pFast->next->next != NULL && pSlow->next != NULL) {
+            pFast = pFast->next->next;
+            pSlow = pSlow->next;
         }
         else {
             return NULL;
@@ -30,8 +30,8 @@ ListNode * EntryNodeOfLoop(ListNode *pHead) {
     
     pFast = pHead;
     while (pFast != pSlow) {
-        pFast = pFast->pNext;
-        pSlow = pSlow->pNext;
+        pFast = pFast->next;
+        pSlow = pSlow->next;
     }
     
     return pFast;

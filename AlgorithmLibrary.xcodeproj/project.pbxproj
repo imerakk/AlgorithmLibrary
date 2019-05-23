@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F0204CEE22219F53009A1FD4 /* InterviewProblem5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0204CEC22219F53009A1FD4 /* InterviewProblem5.cpp */; };
 		F0666F4C22953E73001AF472 /* LeetCode1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0666F4A22953E73001AF472 /* LeetCode1.cpp */; };
+		F0666F4F2296710C001AF472 /* LeetCode2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0666F4D2296710B001AF472 /* LeetCode2.cpp */; };
 		F06961FD22262FFE00F0238D /* InterviewProblem8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F06961FB22262FFE00F0238D /* InterviewProblem8.cpp */; };
 		F069637F22277B6200F0238D /* InterviewProblem9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F069637D22277B6200F0238D /* InterviewProblem9.cpp */; };
 		F06963822227BC5100F0238D /* InterviewProblem10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F06963802227BC5100F0238D /* InterviewProblem10.cpp */; };
@@ -94,6 +95,8 @@
 		F0204CED22219F53009A1FD4 /* InterviewProblem5.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InterviewProblem5.hpp; sourceTree = "<group>"; };
 		F0666F4A22953E73001AF472 /* LeetCode1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LeetCode1.cpp; sourceTree = "<group>"; };
 		F0666F4B22953E73001AF472 /* LeetCode1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LeetCode1.hpp; sourceTree = "<group>"; };
+		F0666F4D2296710B001AF472 /* LeetCode2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LeetCode2.cpp; sourceTree = "<group>"; };
+		F0666F4E2296710C001AF472 /* LeetCode2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LeetCode2.hpp; sourceTree = "<group>"; };
 		F06961FB22262FFE00F0238D /* InterviewProblem8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InterviewProblem8.cpp; sourceTree = "<group>"; };
 		F06961FC22262FFE00F0238D /* InterviewProblem8.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InterviewProblem8.hpp; sourceTree = "<group>"; };
 		F069637D22277B6200F0238D /* InterviewProblem9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InterviewProblem9.cpp; sourceTree = "<group>"; };
@@ -244,6 +247,8 @@
 			children = (
 				F0666F4A22953E73001AF472 /* LeetCode1.cpp */,
 				F0666F4B22953E73001AF472 /* LeetCode1.hpp */,
+				F0666F4D2296710B001AF472 /* LeetCode2.cpp */,
+				F0666F4E2296710C001AF472 /* LeetCode2.hpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -503,6 +508,7 @@
 				F0204CEE22219F53009A1FD4 /* InterviewProblem5.cpp in Sources */,
 				F0696390222CBFA800F0238D /* InterviewProblem13.cpp in Sources */,
 				F0783203225DC8750094FA8D /* InterviewProblem65.cpp in Sources */,
+				F0666F4F2296710C001AF472 /* LeetCode2.cpp in Sources */,
 				F07831F12255A60A0094FA8D /* InterviewProblem59.cpp in Sources */,
 				F0F5FFA5221F9E6500CE8E93 /* InterviewProblem4.cpp in Sources */,
 				F0666F4C22953E73001AF472 /* LeetCode1.cpp in Sources */,

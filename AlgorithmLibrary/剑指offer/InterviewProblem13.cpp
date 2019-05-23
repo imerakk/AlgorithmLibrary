@@ -15,11 +15,11 @@ void DeleteNode(ListNode **pListNode, ListNode *pToBeDeleted) {
         return;
     }
     
-    if (pToBeDeleted->pNext != NULL) { //不是尾结点
-        ListNode *nextNode = pToBeDeleted->pNext;
-        pToBeDeleted->pNext = nextNode->pNext;
-        pToBeDeleted->value = nextNode->value;
-        nextNode->pNext = NULL;
+    if (pToBeDeleted->next != NULL) { //不是尾结点
+        ListNode *nextNode = pToBeDeleted->next;
+        pToBeDeleted->next = nextNode->next;
+        pToBeDeleted->val = nextNode->val;
+        nextNode->next = NULL;
         
         delete nextNode;
         nextNode = NULL;
@@ -33,11 +33,11 @@ void DeleteNode(ListNode **pListNode, ListNode *pToBeDeleted) {
             headNode = NULL;
         }
         else {
-            while (headNode->pNext != pToBeDeleted) {
-                headNode = headNode->pNext;
+            while (headNode->next != pToBeDeleted) {
+                headNode = headNode->next;
             }
             
-            headNode->pNext = NULL;
+            headNode->next = NULL;
             delete pToBeDeleted;
             pToBeDeleted = NULL;
         }

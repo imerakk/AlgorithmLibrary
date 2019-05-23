@@ -19,15 +19,15 @@ ListNode * FindKthToTail(ListNode *listHead, unsigned int k) {
     ListNode *pAhead = listHead;
     ListNode *pBehind = listHead;
     
-    while (pAhead->pNext != NULL) {
+    while (pAhead->next != NULL) {
         if (k == 1) {
-            pBehind = pBehind->pNext;
+            pBehind = pBehind->next;
         }
         else {
             k--;
         }
         
-        pAhead = pAhead->pNext;
+        pAhead = pAhead->next;
     }
     
     if (k > 1) {

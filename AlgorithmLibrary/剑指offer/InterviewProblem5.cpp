@@ -12,13 +12,13 @@
 #include "stack"
 
 struct ListNode {
-    int value;
+    int val;
     ListNode *pNext;
 };
 
 void AddToTail(ListNode **pHead, int value) {
     ListNode *newNode = new ListNode();
-    newNode->value = value;
+    newNode->val = value;
     newNode->pNext = NULL;
     
     if (*pHead == NULL) {
@@ -45,7 +45,7 @@ void PrintListReverse(ListNode *headNode) {
     }
     
     while (!nodes.empty()) {
-        printf("%d", nodes.top()->value);
+        printf("%d", nodes.top()->val);
         nodes.pop();
     }
 }
@@ -56,6 +56,6 @@ void PrintListReverse1(ListNode *headNode) {
             PrintListReverse1(headNode->pNext);
         }
         
-        printf("%d", headNode->value);
+        printf("%d", headNode->val);
     }
 }

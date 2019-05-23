@@ -19,8 +19,8 @@ ListNode * ReverseListNode(ListNode *nodeHead) {
     ListNode *nextNode = NULL;
     ListNode *preNode = NULL;
     while (node != NULL) {
-        nextNode = node->pNext;
-        node->pNext = preNode;
+        nextNode = node->next;
+        node->next = preNode;
         
         preNode = node;
         node = nextNode;
@@ -30,13 +30,13 @@ ListNode * ReverseListNode(ListNode *nodeHead) {
 }
 
 ListNode * ReversListNode1(ListNode *nodeHead) {
-    if (nodeHead == NULL || nodeHead->pNext == NULL) {
+    if (nodeHead == NULL || nodeHead->next == NULL) {
         return nodeHead;
     }
 
-    ListNode *newHead = ReverseListNode(nodeHead->pNext);
-    nodeHead->pNext->pNext = nodeHead;
-    nodeHead->pNext = NULL;
+    ListNode *newHead = ReverseListNode(nodeHead->next);
+    nodeHead->next->next = nodeHead;
+    nodeHead->next = NULL;
     
     return newHead;
 }

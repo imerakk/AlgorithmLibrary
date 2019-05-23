@@ -15,9 +15,9 @@ ListNode * CreateListNode(int *data, int length) {
     
     ListNode *lastNode = NULL;
     for (int i=length - 1; i>=0; i--) {
-        ListNode *node = new ListNode();
-        node->value = data[i];
-        node->pNext = lastNode;
+        ListNode *node = new ListNode(0);
+        node->val = data[i];
+        node->next = lastNode;
         lastNode = node;
     }
     
@@ -30,11 +30,11 @@ void PrintListNode(ListNode *nodeHead) {
     }
     
     ListNode *node = nodeHead;
-    printf("%d ", node->value);
+    printf("%d ", node->val);
     
-    while (node->pNext != NULL) {
-        node = node->pNext;
-        printf("%d ", node->value);
+    while (node->next != NULL) {
+        node = node->next;
+        printf("%d ", node->val);
     }
     printf("\n");
 }

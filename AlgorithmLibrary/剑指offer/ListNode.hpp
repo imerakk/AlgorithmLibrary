@@ -12,8 +12,9 @@
 #include <stdio.h>
 
 struct ListNode {
-    int value;
-    ListNode *pNext;
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(NULL) {}
 };
 
 ListNode * CreateListNode(int *data, int length);

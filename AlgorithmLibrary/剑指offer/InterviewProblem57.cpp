@@ -15,23 +15,23 @@ ListNode * DeleteDuplication(ListNode *pHead) {
         return NULL;
     }
     
-    ListNode *pFirst = new ListNode();
-    pFirst->pNext = pHead;
+    ListNode *pFirst = new ListNode(0);
+    pFirst->next = pHead;
     ListNode *pLast = pFirst;
-    while (pHead != NULL && pHead->pNext != NULL) {
-        if (pHead->value == pHead->pNext->value) {
-            int value = pHead->value;
-            while (pHead != NULL && pHead->value == value) {
-                pHead = pHead->pNext;
+    while (pHead != NULL && pHead->next != NULL) {
+        if (pHead->val == pHead->next->val) {
+            int value = pHead->val;
+            while (pHead != NULL && pHead->val == value) {
+                pHead = pHead->next;
             }
             
-            pLast->pNext = pHead;
+            pLast->next = pHead;
         }
         else {
             pLast = pHead;
-            pHead = pHead->pNext;
+            pHead = pHead->next;
         }
     }
     
-    return pFirst->pNext;
+    return pFirst->next;
 }
